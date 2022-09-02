@@ -79,8 +79,8 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid red;
-  outline-offset: -2px; */
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 /* Header */
@@ -125,11 +125,30 @@ img {
   align-items: center;
 }
 
+.site-nav .link.current {
+  color: var(--accent-txt-cl);
+}
+
 .contacts-nav {
   padding-top: 32px;
   padding-bottom: 32px;
   display: flex;
   align-items: center;
+}
+
+.contacts-nav .link {
+  color: var(--second-txt-cl);
+}
+
+.header-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-icons {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 .contact-link:not(:last-child) {
@@ -139,10 +158,6 @@ img {
 .page-header {
   border-bottom: 1px solid #ececec;
   background-color: var(--main-bg-cl);
-}
-
-.contacts-nav .link {
-  color: var(--second-txt-cl);
 }
 
 .page-header .link {
@@ -157,9 +172,7 @@ img {
   color: var(--accent-txt-cl);
 }
 
-.site-nav .link.current {
-  color: var(--accent-txt-cl);
-}
+
 
 /* Hero */
 
@@ -236,6 +249,16 @@ img {
   flex-basis: calc((100% - 90) /4);
 }
 
+.features-icons {
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  background-color: var(--team-bg-cl);
+  margin-bottom: 30px;
+  border-radius: 4px;
+  border: none;
+}
+
 .feature-title {
   margin-bottom: 10px;
   font-weight: 700;
@@ -309,6 +332,23 @@ img {
   text-align: center;
   color: var(--second-txt-cl);
 }
+
+/* clients */
+
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+}
+
+.clients-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+
 
 /* footer */
 
