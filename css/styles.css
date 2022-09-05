@@ -409,14 +409,14 @@ img {
   border-radius: 4px;
 }
 
-.clients-link .clients-icon:hover,
-.clients-link .clients-icon:focus {
+.clients-link:hover,
+.clients-link:focus {
   fill: var(--accent-txt-cl);
   border: 1px solid #2196F3;
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients-link .clients-icon:hover,
+.clients-link .clients-icon:focus {
   fill: var(--accent-txt-cl);
   border: 1px solid #2196F3;
 }
